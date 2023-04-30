@@ -45,6 +45,7 @@ main{
     max-width: 1000px;
     margin: auto;
     box-shadow: 0px 0px 7px 7px rgba(0, 0, 0, 0.5);
+    margin-bottom: 50px;
 }
 section{
     padding-top: 10vh;
@@ -70,6 +71,10 @@ section p{
     padding-bottom: 2em;
     padding-left: 15px;
     padding-right: 15px;
+    padding-top: 0px;
+}
+section.normal>p.pre-imagem{
+    padding-bottom: 0px;
 }
 section.imagem>p{
     background-color: rgba(0, 0, 0, 0.5);
@@ -96,6 +101,9 @@ section.video{
 }
 #img2{
     background-image: url(../imagens/background002.jpg);
+}
+section.em-branco{
+    background-color: white;
 }
 footer{
     background-color: black;
